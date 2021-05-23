@@ -1,0 +1,27 @@
+body {
+    color:rgb(113, 20, 220);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    background-color: turquoise;
+    line-height: 1.6em;
+}
+.black-border{
+    border: 8px solid rgb(45, 11, 170);
+    padding: 10px;
+    font-size: larger;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: groove;
+}
+#gopurple {
+    color: rgb(221, 56, 221);
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    background-color: tomato;
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color: black;
+}
