@@ -1,0 +1,60 @@
+body {
+    color:rgb(113, 20, 220);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    background-color: silver;
+    line-height: 1.5em;
+    margin:auto;
+    width: 80%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+color: red;
+}
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    
+}
+
+h2{
+    padding-bottom: 15px;
+}
+
+
+.horizontaal ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5em;
+    background-color: slateblue;
+    
+}
+.black-border{
+    border: 8px solid rgb(45, 11, 170);
+    padding: 10px;
+    font-size: larger;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: groove;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#gopurple {
+    color: rgb(221, 56, 221);
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    background-color: rgb(145, 255, 71);
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color: black;
+    margin-top: 5;
+}
