@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mijn eerste site</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+<header>
+    <h1>Wat leuk je wil contact opnemen!</h1>
+    <hr>
+</header>
+<nav> 
+    <div class="horizontaal">
+        <ul>
+            <li> <a href="index.html">Homepage</a></li>
+            <li> <a href="about.html">Informatie over mijzelf</a></li>
+   </div>
+</nav>
+
+<form name="contact" method="POST" data-netlify="true">
+<div class="verticaal">
+Naam: <input type="text" name="name"value="vul hier je naam in"/><br>
+Email: <input type="email" name="email" value="vul hier je e-mail in"/><br>
+Telefoonnummer: <input type="tel" name="Telefoonnummer" value="(0612345678)"/><br>
+Leeftijd: <input type="number" name="Leeftijd" /><br>
+Geboortedatum: <input type="date" name="Geboortedatum"/><br>
+Sekse:<br> 
+<input type="radio" name="Sekse Man"/>Man
+<input type="radio" name="Sekse Vrouw"/>Vrouw
+<input type="radio" name="Sekse Gender neutraal"/>Gender neutraal
+<input type="radio" name="Sekse Zeg ik liever niet"/>Zeg ik liever niet<br>
+Favouriete cuisine:<br>
+<input type="checkbox" name="cuisine Italiaans"/> Italiaans<br>
+<input type="checkbox" name="cuisine Frans"/> Frans<br>
+<input type="checkbox" name="cuisine Spaans"/> Spaans<br>
+<input type="checkbox" name="cuisine Arabisch"/> Arabisch<br>
+Biografie: <br><textarea name="message" rows="20" cols="80">
+</textarea><br>
+Upload je laatste recept: <input type="file"name="upload"/><br>
+Website met eigen recepten: <input type="url"name="website"/><br>
+Rest het formulier:<input type="reset"/><br>
+<input type="submit"/>
+   
+</div>
+</form>
+</body>
+
+
+
+
+
+</html> 
