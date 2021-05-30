@@ -46,6 +46,8 @@ border: 5px solid blue;
     margin: 1.5em;
 }
 
+/*media queries */
+
 @media only screen and (max-width: 400px){
     body {color:red;}
     nav { padding-bottom: 1em;}
@@ -53,3 +55,10 @@ border: 5px solid blue;
     li {padding: 4px;}
     footer {font-size:small;}
 }
+
+@media only screen and (min-width: 1024px){
+    html {background-color: orange;}
+    body {font-size: small;}
+    body {color:blueviolet; }
+    body {line-height: 5em;}
+    }
