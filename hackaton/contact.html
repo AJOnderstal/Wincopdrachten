@@ -20,5 +20,68 @@
             </nav>
         </div>
         
+    <form name="contact" method="POST" data-netlify="true">
+
+    <div class="blackborder">
+    <label for="fname">Voornaam:</label><br>
+    <input type="text" id="fname" name="fname" value="voornaam" required><br>
+    <label for="lname">Achternaam:</label><br>
+    <input type="text" id="lname" name="lname"value="achternaam" required><br>
+    <label for="e-mail">E-mail:</label><br>
+    <input type="email" id="e-mail" name="E-mail" value="jouwmail@server.com" required><br>
+    <label for="Telefoonnummer">Telefoonnummer:</label><br>
+    <input type="tel" id="Telefoonnummer" name="Telefoonnummer" value="+31612345678">
+    </div>
+
+    <div class="blackborderform">
+        <h3>Graag aangeven om wat voor een huis het gaat:</h3>
+    <input type="radio" id="Apartement" name="soort woning" value="Apartement">
+    <label for="Apartement">Apartement</label>
+    <input type="radio" id="Rijwoning" name="soort woning" value="Rijwoning">
+    <label for="Rijwoning">Rijwoning</label><br>
+    <input type="radio" id="Villa" name="soort woning" value="Villa">
+    <label for="Villa">Villa</label>
+    <input type="radio" id="Woonboot" name="soort woning" value="Woonboot">
+    <label for="Woonboot">Woonboot</label>
+    <input type="radio" id="Anders" name="soort woning" value="Anders">
+    <label for="Anders">Anders</label>
+    </div>
+    
+    <div class="blackborderform">
+        <h3>Als u dieren heeft graag aanvinken:</h3>
+        <input type="checkbox" id="dier1" name="dier1" value="hond">
+         <label for="dier1">Hond</label>
+         <label for="aantal">aantal:</label>
+         <input type="text" id="aantal" name="aantal" size="2"><br>
+        <input type="checkbox" id="dier2" name="dier2" value="Kat">
+        <label for="dier2">Kat</label>
+        <label for="aantal">aantal:</label>
+         <input type="text" id="aantal" name="aantal" size="2"><br>
+         <input type="checkbox" id="dier3" name="dier3" value="Klein vee">
+        <label for="dier3">Kleinvee</label>
+        <label for="aantal">aantal:</label>
+         <input type="text" id="aantal" name="aantal" size="2"><br>
+    </div>
+
+    <div class="blackborderform">
+        <h3>Welke data?</h3>
+        <label for="van">van:</label><br>
+        <input type="date" id="van" name="van"><br>
+        <label for="van">tot:</label><br>
+        <input type="date" id="tot" name="tot"><br>
+    </div>
+
+    <div class="blackborderform">
+        <h3>Vragen of opmerkingen:</h3><br>
+        <textarea name="bericht" rows="10" cols="25"></textarea>
+    </div>
+
+    <div class="blackborderform">
+        <input type="reset">
+        <input type="submit">
+    </div>
+
+
+        
         <footer>Copyright Bram Onderstal</footer>
 </html>
