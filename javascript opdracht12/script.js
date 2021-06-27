@@ -1,10 +1,13 @@
 const colors = ["yellow",  "blue", "red", "orange"];
 /*
-console.log (colors)
+let i = 0;
+while (i < myColorArray.length) {
+  console.log(myColorArray[i]);
+  i++;
+}
 
-while (colors [< 4]){
-    console.log colors[]
-    colors ++
+for (let i = 0; i < myColorArray.length; i++) {
+  console.log(myColorArray[i]);
 }
 */
 
