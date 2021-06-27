@@ -24,14 +24,50 @@ for (let i = 0; i < 5; i++) {
 // This is for iteration number 4
 */
 
+//nummer 1:
 
 for (let i = 0; i <= 20; i++) {
-     if ( (i) =){
-        console.log ("oneven")} else{
-            console.log ("even")
-        
-    };
-    
+    if (i % 2 === 0) {
+      console.log(i + " is even");
+    } else {
+      console.log(i + " is oneven");
+    }
   }
 
   console.log ("de nummers t/m 20 zijn nu verdeeld in even en oneven.")
+
+  //nummer 2:
+  function assignGrade(score) {
+    if (score > 90) {
+      return "A";
+    } else if (score > 80) {
+      return "B";
+    } else if (score > 70) {
+      return "C";
+    } else if (score > 65) {
+      return "D";
+    } else {
+      return "F";
+    }
+  }
+  
+  for (let i = 60; i <= 100; i++) {
+    console.log("Voor " + i + " punten, krijg je een " + assignGrade(i));
+  }
+
+  //nummer 3a:
+
+  const vermenigvuldigen = 9;
+for (let i = 0; i <= 10; i++) {
+  let result = vermenigvuldigen * i;
+  console.log(vermenigvuldigen + " * " + i + " = " + result);
+}
+
+//nummer 3b:
+for (let vermenigvuldigen = 0; vermenigvuldigen <= 10; vermenigvuldigen++) {
+  for (let i = 0; i <= 10; i++) {
+    let result = vermenigvuldigen * i;
+    console.log(vermenigvuldigen + " * " + i + " = " + result);
+  }
+}
+ 
